@@ -56,6 +56,8 @@ android {
 }
 
 dependencies {
+    compileOnly 'com.github.pengrad:jdk9-deps:1.0'
+    
     // Android support
     implementation deps.support.appcompat
     implementation deps.support.design
